@@ -27,7 +27,7 @@ int main()
             display_all_students();
             break;
            case 3:
-            /* code */
+            searchStudent();
             break;
            case 4:
             /* code */
