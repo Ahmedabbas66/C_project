@@ -3,7 +3,9 @@
 int main()
 {
   //  initialize_students_for_test();
-    while (1)
+    int choice;
+    choice =1;
+    while (choice)
     {
         int expression;
         printf("==========================================\n"
@@ -56,7 +58,7 @@ int main()
             continue;
         case 9:
             printf("Exiting program.\n");
-            break;
+              choice = 0;
         default:
             printf("Invalid choice. Please try again.\n");
             continue;
